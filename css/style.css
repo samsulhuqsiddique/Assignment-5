@@ -1,0 +1,547 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+body{
+
+}
+header {
+	background-color: #87509C;
+	padding:20px 0px;
+	width: 100%;
+	float: left;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+     display: block;
+     max-width: 100%;
+}
+.menu{
+     width: 70%;
+    float: left;
+}
+nav ul{
+     list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 20px;
+    color: white;
+}
+.header-main{
+      width: 500px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.header-main h2{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.header-main button{
+    margin: 20px auto;
+    display: block;
+    background: #C86A40;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 4px #C86A40;
+}
+.service{
+    width: 100%;
+    float: left;
+    background-color: #17C2A4;
+    padding: 25px 0px;
+
+}
+.service-title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.service-title h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;	
+
+}
+.service-title span {
+	border-bottom: 2px solid black;
+    display: block;
+    width: 83px;
+    margin: 10px auto;
+}
+
+.service-title h5{
+	font-size: 15px;
+    text-align: center;
+}
+
+
+.service-one{
+     width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+
+.service-two{
+     width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.service-three{
+	 width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.service-four{
+	 width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+
+.service h2{
+   font-size: 22px;
+   color: white;
+   margin: 20px 0px;
+}
+.service p {
+     color: white;
+}
+
+.team{
+   width: 100%;
+    float: left;
+    background-color: #D3D3D3;
+    padding: 25px 0px;
+
+}
+.team-title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+.team-title h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;	
+
+}
+.team-title span {
+	border-bottom: 2px solid black;
+    display: block;
+    width: 83px;
+    margin: 10px auto;
+}
+
+.team-title h5{
+	font-size: 15px;
+    text-align: center;
+}
+.team-one{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.team-one ul{
+    list-style: none;
+}
+.team-one ul li{
+    display: inline-block;
+    margin: 16px 23px 0px 8px;
+}
+.team-one ul li a{
+    color: white;
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 11px 11px;
+}
+.team-two{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.team-two ul{
+    list-style: none;
+}
+.team-two ul li{
+    display: inline-block;
+    margin: 16px 23px 0px 8px;
+}
+.team-two ul li a{
+    color: white;
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 11px 11px;
+}
+.team-three{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.team-three ul{
+    list-style: none;
+}
+.team-three ul li{
+    display: inline-block;
+    margin: 16px 23px 0px 8px;
+}
+.team-three ul li a{
+    color: white;
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 11px 11px;
+}
+
+.team-four{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.team-four ul{
+    list-style: none;
+}
+.team-four ul li{
+    display: inline-block;
+    margin: 16px 23px 0px 8px;
+}
+.team-four ul li a{
+    color: white;
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 11px 11px;
+}
+.team img {
+   display: block;
+    max-width: 100%;
+}
+.team h2{
+   font-size: 22px;
+   color: black;
+   margin-top: 20px;
+}
+.team h4{
+	font-size: 15px;
+	color: blue;
+	margin-bottom: 17px;
+
+}
+.team p {
+     color: black;
+}
+
+.skills{
+   width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    padding: 25px 0px;
+
+}
+.skills-title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skills-title h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;	
+
+}
+.skills-title span {
+	border-bottom: 2px solid black;
+    display: block;
+    width: 83px;
+    margin: 10px auto;
+}
+
+.skills-title h5{
+	font-size: 15px;
+    text-align: center;
+}
+.skills-one{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.skills-two{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.skills-three{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.skills-four{
+    width: 22%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.skills img {
+   
+}
+.skills h2{
+   font-size: 22px;
+   color: black;
+   margin-top: 20px;
+}
+.Portfolio{
+   width: 100%;
+    float: left;
+    background-color: #FFDD99;
+    padding: 25px 0px;
+
+}
+.Portfolio-title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Portfolio-title h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;	
+
+}
+.Portfolio-title span {
+	border-bottom: 2px solid black;
+    display: block;
+    width: 83px;
+    margin: 10px auto;
+}
+
+.Portfolio-title h5{
+	font-size: 15px;
+    text-align: center;
+}
+.Portfolio-title p{
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #808080a1;
+    margin: 10px 5px;
+}
+.Portfolio-one{
+    width: 47%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.Portfolio-two{
+    width:47%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.Portfolio-three{
+    width: 47%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+.Portfolio-four{
+    width: 47%;
+    float: left;
+    margin: 15px 17px;
+    text-align: center;
+}
+
+.Portfolio h2{
+   font-size: 22px;
+   color: black;
+   margin-top: 20px;
+}
+ button{
+    margin: 20px auto;
+    display: block;
+    background: #30D0C1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 4px #30D0C1;
+}
+.people{
+    width: 100%;
+    float: left;
+    background-color: #D74680;
+    padding: 25px 0px;
+
+}
+.people-title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.people-title h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px; 
+    color: white;  
+
+}
+.people-title span {
+    border-bottom: 2px solid black;
+    display: block;
+    width: 83px;
+    margin: 10px auto;
+    color: white;
+}
+
+.people-title h5{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.people img {
+   display: block;
+    max-width: 100%;
+}
+
+.people-one{
+    width: 46%;
+    float: left;
+    margin: 15px 22px;
+    text-align: left;
+}
+.pic-part{
+   width: 35%;
+   float: left;
+}
+.content-part{
+    width: 58%;
+    float: left;
+    margin: 30px 15px;
+}
+.people h2{
+   font-size: 22px;
+   color: white;
+   margin-top: 20px;
+}
+.people p {
+     color: white;
+}
+.people h4{
+   font-size: 15px;
+   color: yellow;
+  }
+.form{
+    width: 100%;
+    float: left;
+    background-color: #3C5499;
+    padding: 25px 0px;
+
+}
+.form-title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.form-title h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px; 
+    color: white;  
+
+}
+.form-title span {
+    border-bottom: 2px solid black;
+    display: block;
+    width: 83px;
+    margin: 10px auto;
+    color: white;
+}
+
+.form-title h5{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.touch{
+    width:500px;
+    margin: 0 auto;
+}
+
+.form-control{
+    width: 229px;
+    padding: 6px;
+    float: left;
+    margin: 4px;
+    border: none;
+    background-color: #0D3252;
+    color: white;
+}
+.area{
+    background-color: #0D3252;
+    width: 492px;
+    margin: 2px 2px;
+    border: none;
+    height: 197px;
+    font-size: 15px;
+    color: white;
+}
+.btn{
+    margin: 31px auto;
+    display: block;
+    padding: 10px 27px;
+    color: white;
+    background: #30D0C1;
+    border: none;
+    box-shadow: 0px 3px #30D0C1;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+::placeholder{
+ color: white;
+}
+
+.footer{
+   width: 100%;
+   float: left;
+   background-color: #344B8E;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+     margin: 31px 44px;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
